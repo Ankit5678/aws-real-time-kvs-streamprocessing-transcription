@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>aws-audio-stream-processing</groupId>
+    <artifactId>aws-audio-stream-processing</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    
+    <dependencies>
+  	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-kinesisvideo -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-java-sdk-kinesisvideo</artifactId>
+	    <version>1.12.184</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-core -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-core</artifactId>
+	    <version>1.2.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-events -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-events</artifactId>
+	    <version>3.8.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/netty-nio-client -->
+	<dependency>
+	    <groupId>software.amazon.awssdk</groupId>
+	    <artifactId>netty-nio-client</artifactId>
+	    <version>2.17.157</version>
+	    <!--<scope>test</scope>-->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>3.6</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/transcribestreaming -->
+	<dependency>
+	    <groupId>software.amazon.awssdk</groupId>
+	    <artifactId>transcribestreaming</artifactId>
+	    <version>2.16.30</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-java-sdk-dynamodb</artifactId>
+	    <version>1.11.987</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/amazon-kinesis-video-streams-parser-library -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>amazon-kinesis-video-streams-parser-library</artifactId>
+	    <version>1.2.4</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava -->
+	<dependency>
+	    <groupId>io.reactivex.rxjava2</groupId>
+	    <artifactId>rxjava</artifactId>
+	    <version>2.2.21</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-cloudwatch -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-java-sdk-cloudwatch</artifactId>
+	    <version>1.11.987</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>1.7.32</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-log4j12</artifactId>
+	    <version>1.7.32</version>
+	    <scope>test</scope>
+	</dependency>
+  </dependencies>
+  
+  <build>
+   <plugins>
+   	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-shade-plugin</artifactId>
+		<version>3.2.2</version>
+		<configuration>
+			<createDependencyReducedPom>false</createDependencyReducedPom>
+		</configuration>
+		<executions>
+			<execution>
+				<phase>package</phase>
+				<goals>
+					<goal>shade</goal>
+				</goals>
+			</execution>
+		</executions>
+	</plugin>
+   
+   <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+        </configuration>
+    </plugin>
+   </plugins>
+   </build>
+    
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

@@ -1,0 +1,17 @@
+com\transcribestreaming\service\StreamTranscriptionBehavior.class
+com\streamprocessing\kvs\utils\KVSUtils$TrackName.class
+com\streamprocessing\service\KVSTranscribeStreamingLambda$FileAudioStreamPublisher.class
+com\streamprocessing\kvs\model\TranscriptionRequest.class
+com\streamprocessing\kvs\utils\AudioUtils.class
+com\transcribestreaming\service\StreamTranscriptionBehaviorImpl.class
+com\streamprocessing\service\KVSTranscribeStreamingLambda$1.class
+com\transcribestreaming\utils\KVSByteToAudioEventSubscription.class
+com\streamprocessing\service\KVSTranscribeStreamingLambda.class
+com\streamprocessing\kvs\utils\KVSUtils.class
+com\transcribestreaming\utils\FileByteToAudioEventSubscription.class
+com\transcribestreaming\service\TranscribeStreamingRetryClient.class
+com\streamprocessing\kvs\model\KVSContactTagProcessor.class
+com\streamprocessing\service\KVSTranscribeStreamingLambda$KVSAudioStreamPublisher.class
+com\streamprocessing\kvs\model\KVSStreamTrackObject.class
+com\streamprocessing\kvs\model\TranscribedSegmentWriter.class
+com\streamprocessing\kvs\utils\MetricsUtil.class

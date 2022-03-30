@@ -1,0 +1,13 @@
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\transcribestreaming\utils\KVSByteToAudioEventSubscription.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\service\KVSTranscribeStreamingLambda.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\model\TranscriptionRequest.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\transcribestreaming\utils\FileByteToAudioEventSubscription.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\model\KVSStreamTrackObject.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\utils\MetricsUtil.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\model\TranscribedSegmentWriter.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\transcribestreaming\service\StreamTranscriptionBehaviorImpl.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\transcribestreaming\service\TranscribeStreamingRetryClient.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\utils\AudioUtils.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\utils\KVSUtils.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\streamprocessing\kvs\model\KVSContactTagProcessor.java
+C:\Users\panig\Documents\Interview\code-workspace\aws-audio-stream-processing\src\main\java\com\transcribestreaming\service\StreamTranscriptionBehavior.java
